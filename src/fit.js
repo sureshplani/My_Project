@@ -1,4 +1,4 @@
-export default [
+const fit =[
   {
     id: 1,
     title: "CHEST WORKOUT",
@@ -113,7 +113,7 @@ export default [
   {
     id: 4,
     title: "LEG WORKOUT",
-    bg: "https://www.bodybuilding.com/images/2016/june/leg-workouts-for-men-7-best-workouts-for-quads-glutes-hams-header-v2-830x467.jpg",
+    bg: "https://wallpapercave.com/wp/wp5013769.jpg",
     excersises: [
       {
         id: "20",
@@ -186,3 +186,4 @@ export default [
     ],
   },
 ];
+export default fit

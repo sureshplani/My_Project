@@ -3,7 +3,7 @@ import './App.css'
 function Download() {
 
   const handleDownload = () => {
-     fetch("SureshPalanichamyResume.pdf").then(response => response.blob()
+     fetch("Suresh Palanichamy Resume.pdf").then(response => response.blob()
      .then(blob =>
      { const fileURL = window.URL.createObjectURL(blob)
        let link = document.createElement("a")

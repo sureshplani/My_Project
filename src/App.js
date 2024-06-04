@@ -11,6 +11,8 @@ import { FitnessContext } from "./Context";
 import Rest from "./Rest";
 import ProjectHome from "./ProjectHome";
 import Download from "./Download";
+import One from "./games/One";
+
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
           <Route path="/workoutHome" element={<WorkoutHome />} />
           <Route path="/workout/:id" element={<WorkoutList />} />
           <Route path="/rest/:id/:indexid" element={<Rest />} />
+          <Route path="/games" element={<One />} />
         </Routes>
       </FitnessContext>
       <Footer />

@@ -11,6 +11,7 @@ function Rest() {
         const navigate = useNavigate();
         let timer = 0;
         const [timeLeft, setTimeLeft] = useState(10);
+        
         const startTime = () => {
           setTimeout(() => {
             if (timeLeft <= 0) {

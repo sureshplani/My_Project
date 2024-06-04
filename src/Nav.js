@@ -41,6 +41,9 @@ function Nav() {
             <li className='menu-item'>
             <Link className='menu-link' to='/download' onClick={closeMenuOnMobile}>Download</Link>
             </li>
+            {/* <li className='menu-item'>
+            <Link className='menu-link' to='/games' onClick={closeMenuOnMobile}>Games</Link>
+            </li> */}
 
            
           </ul>
