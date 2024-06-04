@@ -19,7 +19,6 @@ function Home() {
 
         <div className="home-bg-text">
           <h1> Welcome To My Website </h1>
-          
         </div>
 
         <button onClick={handleExplore}>
